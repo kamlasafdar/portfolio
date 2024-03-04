@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Kamla's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="firstsection">
+            <div class="leftsection">
+                Hi,My name is <span class="purple">Kamla</span>
+                <div>and I am a</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="pn3.png">
+            </div>
+
+        </section>
+         <hr>
+        <section id="about" class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="c++.png" alt="">
+                    <div class="vertical-title">
+                        c++ (2021)
+                    </div>
+                    <div class="vertical-desc">
+                        I started my C++ journey 2 years ago in 2021. Exploring programming fundamental to object oriented programing and then data structure. 
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="sql.png" alt="">
+                    <div class="vertical-title">
+                        SQL (2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Since 2022, I've been delving into SQL, mastering database fundamentals, querying, and data manipulation. I have done this on oracle.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="asm.png" alt="">
+                    <div class="vertical-title">
+                        Assembly language (2022)
+                    </div>
+                    <div class="vertical-desc">
+                        "Since 2022, I've been diving into assembly language, understanding low-level programming concepts and hardware interactions.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="python.png" alt="">
+                    <div class="vertical-title">
+                        python(2024)
+                    </div>
+                    <div class="vertical-desc">
+                        "Since 2024, I've been immersing myself in Python, exploring its versatility in web development, data analysis, and automation.
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="container">
+        <div class="card">
+            <div class="box">
+                <div class="percent">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>65<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">Html</h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <div class="percent">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>85<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">css</h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <div class="percent">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>55<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">javascript</h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <div class="percent">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>90<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">C++</h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <div class="percent">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>75<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">Assembly</h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="box">
+                <div class="percent">
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70"></circle>
+                    </svg>
+                    <div class="number">
+                        <h2>50<span>%</span></h2>
+                    </div>
+                </div>
+                <h2 class="text">python</h2>
+            </div>
+        </div>
+
+    </div>
+    <div class="thirdhr">
+        <hr>
+    </div>
+    <section id="Projects" class="thirdsection">
+        <span class="text-gray">What projects I have done so far</span>
+        <section class="projects">
+            <div class="project-row" id="battleship">
+                <div class="left">
+                    <h2>BATTLESHIP</h2>
+                </div>
+                <div class="right">
+                    <p>My first game that I programmed</p>
+                </div>
+            </div>
+            <div class="project-row" id="snake-game">
+                <div class="left">
+                    <h2>Snake Game</h2>
+                </div>
+                <div class="right">
+                    <p>My first assembly language project</p>
+                </div>
+            </div>
+            <div class="project-row" id="inventory-system">
+                <div class="left">
+                    <h2>Inventory Management System</h2>
+                </div>
+                <div class="right">
+                    <p>My first full-stack project</p>
+                </div>
+            </div>
+            <div class="project-row" id="crochet-website">
+                <div class="left">
+                    <h2>Crochet Website</h2>
+                </div>
+                <div class="right">
+                    <p>My first web project</p>
+                </div>
+            </div>
+        </section> 
+    </section>
+    <div class="thirdhr">
+        <hr>
+    </div>
+    <div id="contact" class="class-container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+            <div class="contact-left-title">
+                <h2>Get in touch</h2>
+                <hr>
+            </div>
+            <input type="hidden" name="access_key" value="6b301c58-e7f6-4aa4-b706-c17c23ef2951">
+            <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+            <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+            <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Student.', 'Web Developer.' , 'Web Designer.' , 'Programmer.'],
+          typeSpeed: 50,
+        });
+      </script>
+      <script src="index.js"></script>
+</body>
+</html>
